@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{@types/chrome, aes, enc-base64, enc-utf16, firebase, forge, hmac, index, mode-ofb, pbkdf2, sha1}" />
+  </component>
+</project>

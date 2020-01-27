@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/chrome" level="application" />
+    <orderEntry type="library" name="forge" level="application" />
+    <orderEntry type="library" name="aes" level="application" />
+    <orderEntry type="library" name="index" level="application" />
+    <orderEntry type="library" name="firebase" level="application" />
+    <orderEntry type="library" name="mode-ofb" level="application" />
+    <orderEntry type="library" name="enc-base64" level="application" />
+    <orderEntry type="library" name="enc-utf16" level="application" />
+    <orderEntry type="library" name="pbkdf2" level="application" />
+    <orderEntry type="library" name="hmac" level="application" />
+    <orderEntry type="library" name="sha1" level="application" />
+  </component>
+</module>

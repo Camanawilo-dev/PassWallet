@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/container"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fontFamily="@font/robotoregular"
+        android:text="Setting up ..."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/btntop"
+        app:layout_constraintLeft_toRightOf="@id/btnleft"
+        app:layout_constraintRight_toLeftOf="@id/btnright" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/appicon"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/logobot1"
+        app:layout_constraintTop_toBottomOf="@id/logotop1" />
+
+    <TextView
+        android:id="@+id/enterpass5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="Enter Your Passcode"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/btntop"
+        app:layout_constraintTop_toBottomOf="@id/numbot1" />
+
+    <ImageView
+        android:id="@+id/logo5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/appicon"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/numbot1"
+        app:layout_constraintTop_toBottomOf="@id/txtbot1" />
+
+    <ImageView
+        android:id="@+id/entry5"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:src="@drawable/pass0"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/btntop"
+        app:layout_constraintTop_toBottomOf="@id/btnbot" />
+
+    <TextView
+        android:id="@+id/enterpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="\nWhat is your phone number?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/txtbot1"
+        app:layout_constraintTop_toBottomOf="@id/txttop1" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fontFamily="@font/robotoregular"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/txtbot1"
+        app:layout_constraintTop_toBottomOf="@id/txttop1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="_ _ _ _ _ _ _ _ _ _ _"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="28sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/numtop1"
+        app:layout_constraintTop_toBottomOf="@id/numbot1" />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnround"
+        android:fontFamily="@font/robotobold"
+        android:text="Continue"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/btntop"
+        app:layout_constraintLeft_toRightOf="@id/btnleft"
+        app:layout_constraintRight_toLeftOf="@id/btnright"
+        app:layout_constraintTop_toBottomOf="@id/btnbot" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/logobot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.17" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/logotop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.06" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/txttop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.18" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/txtbot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.26" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/numbot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.37" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/numtop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/btntop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.42" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/btnbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.51" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/btnleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintGuide_begin="115dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/btnright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintGuide_percent="0.73" />
+    <!--app:layout_constraintBottom_toTopOf="@id/buttontop"-->
+    <!--app:layout_constraintHorizontal_bias="0.6"-->
+    <!--app:layout_constraintLeft_toRightOf="@id/logoright"-->
+    <!--app:layout_constraintRight_toLeftOf="@id/buttonright"-->
+    <!--app:layout_constraintTop_toBottomOf="@id/buttonbottom" />-->
+    <TableLayout
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:divider="@drawable/keyboard_divider"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle|end"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/keybot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/keyboardb">
+
+        <TableRow style="@style/keyboard_row">
+
+            <TextView
+                android:id="@+id/t9_key_1"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_one" />
+
+            <TextView
+                android:id="@+id/t9_key_2"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_two" />
+
+            <TextView
+                android:id="@+id/t9_key_3"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_three" />
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <TextView
+                android:id="@+id/t9_key_4"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_four" />
+
+            <TextView
+                android:id="@+id/t9_key_5"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_five" />
+
+            <TextView
+                android:id="@+id/t9_key_6"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_six" />
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <TextView
+                android:id="@+id/t9_key_7"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_seven" />
+
+            <TextView
+                android:id="@+id/t9_key_8"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_eight" />
+
+            <TextView
+                android:id="@+id/t9_key_9"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_nine" />
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <TextView
+                android:id="@+id/t9_key_clear"
+                style="@style/keyboard_button"
+                android:text="@string/btn_clear"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/t9_key_0"
+                style="@style/keyboard_number_button"
+                android:text="@string/number_zero" />
+
+            <TextView
+                android:id="@+id/t9_key_backspace"
+                style="@style/keyboard_button"
+                android:text="@string/btn_backspace"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/keyboardb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/keybot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="715dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/mode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="textView,logo2,buttonsub,textView5,enterpass" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/mode2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="entry5,enterpass5,logo5" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="164dp"
+
+        android:indeterminateDrawable="@drawable/circle"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/txttop1"
+        app:layout_constraintLeft_toRightOf="@id/btnleft"
+        app:layout_constraintRight_toLeftOf="@id/btnright"
+        app:layout_constraintTop_toBottomOf="@id/numbot1" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/appicon"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/logobot1"
+        app:layout_constraintTop_toBottomOf="@id/logotop1" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/mode3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="logo,progressBar2,textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

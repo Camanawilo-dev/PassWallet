@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "PassWallet",
+  "description": "Passwallet chrome extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "passwallet.png"
+  },
+  "browser_action": {
+    "default_icon": "passwallet.png",
+    "default_popup": "credentials.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "identity",
+    "tabs"
+  ],
+  "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js https://www.googleapis.com https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js   https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/mode-ofb.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/enc-base64.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/enc-utf16.js   https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/pbkdf2.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/hmac.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.js; object-src 'self'",
+  "oauth2": {
+    "client_id": "553560227115-nt1ts17dq65rqth1di9mt3q78quf7hhj.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvHqqYI7qTZ0r2WVhWKJpJ8xjVeZG7CEehBhvflw5dBpm5r3+tVKMVsfNWvN2EyWsz5xW8qtQaXv8gb728C5hAo4VyhGrfPmyW+6qvsGlh5RFJTuJ3yZPtSiCIbAyOrQecc8cBSFRi07nUe45oVdyd+kootW5hh+6gmPqG79q1Dy5QPkydnLIOhAFN1SO97r/oxhYP1h9pD0BOSryjCdtOji5idBxqPcnRo9jCHoFOfvqOnK+3N1IcgsU21NMArCcmkBC1MrpwlxgBiIWsaO/VOjNCWHG+PPGP9Au6zXAwwftgRX3yJ8+6xUGEQ8UPz+PvKcbmQ8+aiCAok/TnjfxwwIDAQAB"
+}

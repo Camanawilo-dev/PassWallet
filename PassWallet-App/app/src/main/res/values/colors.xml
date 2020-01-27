@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F9AC19</color>
+    <color name="colorPrimaryDark">#F9AC19</color>
+    <color name="colorAccent">#F9AC19</color>
+    <color name="black">#353232</color>
+    <color name="textColorPrimary">#000</color>
+    <color name="trans">#1A000000</color>
+    <color name="transp">#00000000</color>
+    <color name="passbg">#EEEEEE</color>
+    <color name="searchbg">#0F292724</color>
+    <color name="scanbg">#80F9AC19</color>
+    <color name="completebg">#8007BE14</color>
+
+
+</resources>

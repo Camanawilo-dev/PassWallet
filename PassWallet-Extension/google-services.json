@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "553560227115",
+    "firebase_url": "https://passwallet-afa54.firebaseio.com",
+    "project_id": "passwallet-afa54",
+    "storage_bucket": "passwallet-afa54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553560227115:android:bbd3135222989ff0",
+        "android_client_info": {
+          "package_name": "com.ecb825.passwordwalletv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553560227115-4s0qmoug0adr53gv730nt410dvheuinu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecb825.passwordwalletv2",
+            "certificate_hash": "4a59a91360190988b2b6747c412a290a738aac51"
+          }
+        },
+        {
+          "client_id": "553560227115-ht7ruf2r4fi639bq15bh63iqhhi9uru3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo0hDsyd-JcJmnNRofd6Q3hiTiQHBAQ2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553560227115-ht7ruf2r4fi639bq15bh63iqhhi9uru3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
